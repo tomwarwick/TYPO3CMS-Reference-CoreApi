@@ -12,7 +12,7 @@ scripts. All you need to do is include the class, build a $data/$cmd
 array you want to pass to the class and call a few methods.
 
 .. attention::
-   Mind that these scripts have to be run in the
+   Note that these scripts need to be run in the
    **backend scope**! There must be a global :php:`$GLOBALS['BE_USER']` object.
 
 
